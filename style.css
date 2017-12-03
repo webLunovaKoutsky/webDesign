@@ -5,8 +5,16 @@ body.main{
 	margin-left: 5%;
 }
 
-img.picDomStr{
+.picContent{
     margin: 10px;
+    height: 250px;
+    width: 400px;
+}
+
+.picGaler{
+    margin: 10px;
+    height: 400px;
+    width: 600px;
 }
 .text{
     text-align: justify;
@@ -16,7 +24,7 @@ img.picDomStr{
 	margin-top: 50px; 
 	border: none; 
 	margin-left: 5%; 
-	height: 93%; 
+	height: 73%; 
 	width: 87%; 
 	z-index: 1;
 } 
@@ -168,4 +176,54 @@ transition: 0s
     display: block;
 }
 
+.innerMenuToRight:hover .rightContent{
+    display: block;
+    
+}
 
+.rightContent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-top: -42px;
+    margin-left: 160px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    z-index: 3;
+}
+
+.menuToRight span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .menuToRight span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -70px;
+    transition: 0.5s;
+  }
+  
+  .menuToRight:hover span {
+    padding-right: 35px;
+    cursor: default;
+  }
+  
+  .menuToRight:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+  /* For future
+  <div class="image"></div>​
+  
+  div.image {
+     content:url(http://placehold.it/350x150);
+  }​ */

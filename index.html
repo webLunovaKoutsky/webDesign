@@ -11,22 +11,30 @@
     	</div>
         <div class="dropdownMenu">  
             <div class="dropdown1">
-                <button title="DOMÁCÍ STRÁNKA" class="btn"><span>DOMÁCÍ STRÁNKA</span></button>
+                <form action="homePage.html" target="content">
+                    <button type="submit" title="DOMÁCÍ STRÁNKA" class="btn"><span>DOMÁCÍ STRÁNKA</span></button>
+                </form>
             </div>
             <div class="dropdown2">
                 <button class="dropbtn"><span>HISTORIE</span></button>
                 <div class="dropdown-content">
-                    <a href="#">Mála Strana</a>
-                    <a href="#">Stare Město</a>
-                    <a href="#">Nove Město</a>
-                    <a href="#">Vyšehrad</a>
+                    <a href="historie/malaStrana.html" target="content">Mála Strana</a>
+                    <a href="historie/stareMesto.html" target="content">Stare Město</a>
+                    <div class="innerMenuToRight">
+                        <a class="menuToRight" href="#"><span>Nove Město</span></a>
+                        <div class="rightContent">
+                            <a href="historie/karlovoNamesti.html" target="content">Karlovo náměstí</a>
+                            <a href="historie/vaclavskeNamesti.html" target="content">Václavské náměstí</a>
+                        </div>
+                    </div>
+                    <a href="historie/vysehrad.html" target="content">Vyšehrad</a>
                 </div>
             </div>
             <div class="dropdown3">
                 <button class="dropbtn"><span>PAMÁTKY</span></button>
                 <div class="dropdown-content">
-                    <a href="#">Vyšehrad</a>
-                    <a href="#">Karlův most</a>
+                    <a href="pamatky/vysehrad.html" target="content">Vyšehrad</a>
+                    <a href="pamatky/karluvMost.html" target="content">Karlův most</a>
                 </div>
             </div>
             <div class="dropdown4">
@@ -35,15 +43,15 @@
             <div class="dropdown5">
                 <button class="dropbtn"><span>FOTOGALERIE</span></button>
                 <div class="dropdown-content">
-                    <a href="#">Pražský hrad</a>
-                    <a href="#">Karlův most</a>
-                    <a href="#">Centrum Prahy</a>
-                    <a href="#">Pivnice</a>
+                    <a href="fotogalerie.html#prazskyHrad" target="content">Pražský hrad</a>
+                    <a href="fotogalerie.html#karluvMost" target="content">Karlův most</a>
+                    <a href="fotogalerie.html#centrumPrahy" target="content">Centrum Prahy</a>
+                    <a href="fotogalerie.html#pivnice" target="content">Pivnice</a>
                 </div>
             </div>
         </div>
         <div class="frmDiv"> 
-        		<iframe class="frmContent" src="domaci_stranka.html" name="content"></iframe>
+                <iframe class="frmContent" src="homePage.html" name="content"></iframe>
         </div>
 
     </body>
