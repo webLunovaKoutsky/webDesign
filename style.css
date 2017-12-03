@@ -2,7 +2,8 @@ body.main{
     background-image: url("img/back.jpg");
 }
 .picPrague {
-	margin-left: 5%;
+    content: url("img/prague.png");
+    margin-left: 5%;
 }
 
 .picContent{
