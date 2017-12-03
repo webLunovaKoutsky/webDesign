@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="utf-8">
+        <title>webLunovaKoutsky</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="main"> 
+        <div class="dropdownMenu">  
+            <div class="dropdown1">
+                <button title="DOMÁCÍ STRÁNKA" class="btn"><span>DOMÁCÍ STRÁNKA</span></button>
+            </div>
+            <div class="dropdown2">
+                <button class="dropbtn"><span>HISTORIE</span></button>
+                <div class="dropdown-content">
+                    <a href="#">Mála Strana</a>
+                    <a href="#">Stare Město</a>
+                    <a href="#">Nove Město</a>
+                    <a href="#">Vyšehrad</a>
+                </div>
+            </div>
+            <div class="dropdown3">
+                <button class="dropbtn"><span>PAMÁTKY</span></button>
+                <div class="dropdown-content">
+                    <a href="#">Vyšehrad</a>
+                    <a href="#">Karlův most</a>
+                </div>
+            </div>
+            <div class="dropdown4">
+                <button class="btn"><span>KONTAKTY</span></button>
+            </div>
+            <div class="dropdown5">
+                <button class="dropbtn"><span>FOTOGALERIE</span></button>
+                <div class="dropdown-content">
+                    <a href="#">Pražský hrad</a>
+                    <a href="#">Karlův most</a>
+                    <a href="#">Centrum Prahy</a>
+                    <a href="#">Pivnice</a>
+                </div>
+            </div>
+        </div>
+        <div class="frmDiv"> 
+        		<iframe class="frmContent" src="domaci_stranka.html" name="content"></iframe>
+        </div>
+
+    </body>
+</html>
