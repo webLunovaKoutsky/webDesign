@@ -1,10 +1,16 @@
 body.main{
     background-image: url("img/back.jpg");
 }
-.pikPrague {
+.picPrague {
 	margin-left: 5%;
 }
 
+img.picDomStr{
+    margin: 10px;
+}
+.text{
+    text-align: justify;
+}
 .frmDiv{ 
 	position: absolute; 
 	margin-top: 50px; 
