@@ -1,43 +1,44 @@
-body.main{
+body.main {
     background-image: url("img/back.jpg");
 }
 .picPrague {
     margin-left: 5%;
 }
 
-.picContent{
+.picContent {
     margin: 0 0 7px 7px;
     height: 250px;
     width: 400px;
     float: right;
 }
 
-.picGaler{
+.picGaler {
     margin: 10px;
     height: 400px;
     width: 600px;
 }
-.text{
+.text {
     text-align: justify;
 }
-.frmDiv{ 
+.frmDiv{  
 	position: absolute; 
 	margin-top: 50px; 
 	border: none; 
 	margin-left: 5%; 
 	height: 73%; 
 	width: 87%; 
-	z-index: 1;
+    z-index: 1;
 } 
 
-iframe{ 
-	position: relative; 
+iframe { 
+	position: inherit; 
 	width: 100%; 
 	height: 100%; 
 	border: none; 
 	background-color: #EEDC9D; 
 }
-.dropdownMenu{
+.dropdownMenu {
+    position: absolute;
     margin-left: 5%;
 }
 /* Dropdown Button animation */
@@ -76,7 +77,7 @@ iframe{
 }
 
 /* Without dropdown menu */ 
-.btn{ 
+.btn { 
 position: relative; 
 background-color: #1F0B6A; 
 border: none; 
@@ -84,7 +85,7 @@ font-size: 16px;
 color: #FFFFFF; 
 padding: 16px; 
 text-align: center; 
--webkit-transition-duration: 0.4s; /* Safari */ 
+-webkit-transition-duration: 0.4s; /* Safari from w3school*/ 
 transition-duration: 0.4s; 
 text-decoration: none; 
 overflow: hidden; 
@@ -100,7 +101,7 @@ color: black;
 content: ""; 
 background: #90EE90; 
 display: block; 
-position: absolute; 
+position: absolute; /*from w3school*/
 padding-top: 300%; 
 padding-left: 350%; 
 margin-left: -20px!important; 
@@ -143,28 +144,24 @@ transition: 0s
     color: black;
 }
 
-.dropdown1:hover .dropdown-content{
-    display: block;
-}
 .dropdown2:hover .dropdown-content{
     display: block;
 }
+
 .dropdown3:hover .dropdown-content{
     display: block;
 }
-.dropdown4:hover .dropdown-content{
-    display: block;
-}
+
 .dropdown5:hover .dropdown-content{
     display: block;
 }
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     cursor: pointer;
     z-index: 2;
 }
@@ -178,8 +175,7 @@ transition: 0s
 }
 
 .innerMenuToRight:hover .rightContent{
-    display: block;
-    
+    display: block;   
 }
 
 .rightContent{
@@ -189,7 +185,6 @@ transition: 0s
     margin-top: -42px;
     margin-left: 160px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     cursor: pointer;
     z-index: 3;
 }
@@ -201,6 +196,7 @@ transition: 0s
     transition: 0.5s;
   }
   
+  /* Right Menu Button animation */
   .menuToRight span:after {
     content: '\00bb';
     position: absolute;
@@ -219,12 +215,3 @@ transition: 0s
     opacity: 1;
     right: 0;
   }
-
-
-
-  /* For future
-  <div class="image"></div>​
-  
-  div.image {
-     content:url(http://placehold.it/350x150);
-  }​ */
