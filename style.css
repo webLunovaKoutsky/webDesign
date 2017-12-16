@@ -17,6 +17,11 @@ body.main {
     height: 400px;
     width: 600px;
 }
+.picGalerLong {
+    margin: 10px,0,0,0;
+    height: 400px;
+    width: 100%;
+}
 .text {
     text-align: justify;
 }

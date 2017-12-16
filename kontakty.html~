@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>webLunovaKoutsky</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <p>Projekt je vytvořen v rámci předmětu Webdesign na České zemědělské univerzitě v Praze. </p>
+        <p>Projekt vytvořili: Jakub Lávička a Lucie Salabová</p>
+        <p>Termín cvičení: čtvrtek, 8:45, lichý týden Cvičící: Ing. Pavel Šimek, Ph.D.</p>
+    </body>
+</html>

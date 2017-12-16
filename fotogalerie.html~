@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>webLunovaKoutsky</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body> 
+        <h1 id="prazskyHrad">Pražský hrad</h1>
+        <img class="picGaler" src="img/prazskyHrad/1.jpg" alt="Pražský hrad" title="Pražský hrad">
+        <img class="picGaler" src="img/prazskyHrad/2.jpg" alt="Pražský hrad" title="Pražský hrad">
+        <img class="picGaler" src="img/prazskyHrad/3.jpg" alt="Pražský hrad" title="Pražský hrad">
+        <img class="picGalerLong" src="img/prazskyHrad/4.jpg" alt="Pražský hrad" title="Pražský hrad">
+
+        <h1 id="karluvMost">Karlův most</h1>
+        <img class="picGaler" src="img/karluvMost/1.jpg" alt="Karlův most" title="Karlův most">
+        <img class="picGaler" src="img/karluvMost/2.jpg" alt="Karlův most" title="Karlův most">
+        <img class="picGalerLong" src="img/karluvMost/3.jpg" alt="Karlův most" title="Karlův most">
+        <img class="picGaler" src="img/karluvMost/4.jpeg" alt="Karlův most" title="Karlův most">
+
+        <h1 id="centrumPrahy">Centrum Prahy</h1>
+        <img class="picGaler" src="img/centrumPrahy/1.jpg" alt="Centrum Prahy" title="Centrum Prahy">
+        <img class="picGaler" src="img/centrumPrahy/2.jpg" alt="Centrum Prahy" title="Centrum Prahy">
+        <img class="picGaler" src="img/centrumPrahy/3.jpg" alt="Centrum Prahy" title="Centrum Prahy">
+        
+        <h1 id="pivnice">Pivnice</h1>
+        <img class="picGaler" src="img/pivnice/1.jpg" alt="" title="">
+        <img class="picGaler" src="img/pivnice/2.jpg" alt="" title="">
+    </body>
+</html>
