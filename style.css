@@ -85,8 +85,8 @@ section {
 
 /* Dropdown Button animation */
 .dropbtn {
-    background-color: #1F0B6A;
-    color: white;
+    background-color: #262A5A;
+    color: 	#F19720;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -121,10 +121,10 @@ section {
 /* Without dropdown menu */ 
 .btn { 
 position: relative; 
-background-color: #1F0B6A; 
+background-color: #262A5A; 
 border: none; 
 font-size: 16px; 
-color: #FFFFFF; 
+color: #F19720; 
 padding: 16px; 
 text-align: center; 
 -webkit-transition-duration: 0.4s; /* Safari from w3school*/ 
@@ -259,14 +259,14 @@ transition: 0s
   }
 
 footer {
-	font-family: 'Amatic SC', white;
+	font-family: 'Amatic SC', #F19720;
 	font-size: 15px;
 	position: relative;
 	height: 50px;
-	background-color: #1F0B6A;
+	background-color: #262A5A;
     padding-top: 10px;
     padding-bottom: -10px;
-    color: white;
+    color: 	#F19720;
     text-align: center;
     top:85%;
     margin-top: 15px;
