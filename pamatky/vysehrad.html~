@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>webLunovaKoutsky</title>
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    </head>
+    <body> 
+        <header>
+            <img src="../img/prague.png" alt="PragueTitle" title="PragueTitle">
+            <div>  
+                <div class="dropdown1">
+                    <form action="../index.html">
+                        <button type="submit" title="DOMÁCÍ STRÁNKA" class="btn"><span>DOMÁCÍ STRÁNKA</span></button>
+                    </form>
+                </div>
+                <div class="dropdown2">
+                    <button class="dropbtn"><span>HISTORIE</span></button>
+                    <div class="dropdown-content">
+                        <a href="../historie/malaStrana.html">Malá Strana</a>
+                        <a href="../historie/stareMesto.html">Staré Město</a>
+                        <div class="innerMenuToRight">
+                            <a class="menuToRight" href="#"><span>Nové Město</span></a>
+                            <div class="rightContent">
+                                <a href="../historie/karlovoNamesti.html">Karlovo náměstí</a>
+                                <a href="../historie/vaclavskeNamesti.html">Václavské náměstí</a>
+                            </div>
+                        </div>
+                        <a href="../historie/vysehrad.html">Vyšehrad</a>
+                    </div>
+                </div>
+                <div class="dropdown3">
+                    <button class="dropbtn"><span>PAMÁTKY</span></button>
+                    <div class="dropdown-content">
+                        <a href="vysehrad.html">Vyšehrad</a>
+                        <a href="karluvMost.html">Karlův most</a>
+                    </div>
+                </div>
+                <div class="dropdown4">
+                    <form action="../kontakty.html">
+                        <button type="submit" class="btn" title="KONTAKTY"><span>KONTAKTY</span></button>
+                    </form>
+                </div>
+                <div class="dropdown5">
+                    <button class="dropbtn"><span>FOTOGALERIE</span></button>
+                    <div class="dropdown-content">
+                        <a href="../fotogalerie.html#prazskyHrad">Pražský hrad</a>
+                        <a href="../fotogalerie.html#karluvMost">Karlův most</a>
+                        <a href="../fotogalerie.html#centrumPrahy">Centrum Prahy</a>
+                        <a href="../fotogalerie.html#pivnice">Pivnice</a>
+                    </div>
+                </div>
+            </div>            
+        </header>
+        <section>
+            <h1 class="textTitle">Vyšehradská pevnost</h1>
+            <p class="text">
+                Tato stará pevnost byla založena ve druhé polovině 10. století. Vyšehrad byl ve druhé polovině 11. a první polovině 12. století hlavním sídlem přemyslovských knížat a v této době vznikla většina staveb. 
+                Navštívit můžete cennou románskou rotundu sv. Martina z 11. století (nejstarší zachovaná stavba v Praze), gotický kostel sv. Petra a Pavla (koncem 19. století přestavěn novogoticky a ve 20. letech 20. století 
+                vymalován barevnými secesními freskami) a hřbitov Slavín, na němž jsou pohřbeny slavné české osobnosti, například Karel Čapek, Antonín Dvořák, Alfons Mucha a Bedřich Smetana. 
+                Celý areál je dnes udržován jako krásný park s vyhlídkami na řeku a se spoustou otevřeného prostoru k rekreaci – ideální místo na nedělní piknik s vyhlídkou.
+            </p>
+
+            <h1 class="textTitle">Kapitulní chrám sv. Petra a Pavla</h1>	
+            <p class="text">
+                S vrcholu bájných vyšehradských skalisek majestátně shlíží impozantní kostel svatého Petra a Pavla, památka snadno rozpoznatelná díky dvojici štíhlých novogotických věží. Stavba kostela svatého 
+                Petra a Pavla započala v 11. století na zakázku české šlechty; původně byl kostel románský. Milovaný císař Svaté říše římské Karel IV. jej ve 14. století nechal přestavět v gotickém stylu a ve 20. letech 18. století 
+                proběhla barokní rekonstrukce. Josef Mocker jeho další přestavbou v roce 1895 založil novogotický sloh. Na konci 19. století získal také chrám své charakteristické věže, které představují jednu z 
+                výrazných dominant hlavního města Prahy, a neobvyklou secesní výzdobu interiéru. V 80. letech 20. století prošel chrám generální rekonstrukcí a v roce 2003 byl papežem Janem Pavlem II. povýšen na baziliku minor. 
+                Na severní a východní straně chrámu se nachází Vyšehradský hřbitov se Slavínem, kde je pohřbena řada významných českých skladatelů, spisovatelů, politiků a dalších významných osobností.
+            </p>
+
+            <h1 class="textTitle">Vila Kovařovic</h1>
+            <p class="text"> 
+                Přímo pod majestátními skalisky Vyšehradu leží nevelký blok s několika pozoruhodnými budovami: neoklasicistní vilou Emila Králíčka, modernistickou Sequensovou vilou od architekta Otakara Novotného a působivou 
+                kubistickou Kovařovicovou vilou od Josefa Chochola. Kovařovicova vila je povinnou zastávkou každého milovníka architektury, pochopitelně hned po prohlídce domu U Černé Matky Boží. Vila je úžasným vyjádřením kubismu 
+                inspirovaným Braquovými a Picassovými díly. Kubistická je nejen podoba vily, ale též zahrady a záhonů, kovového plotu a dokonce i venkovního schodiště. Fasádu budovy neustále proměňuje hra světla, 
+                které se odráží od jejích kubistických tvarů, čímž dává vzniknout zajímavým stínům a pohybům.
+            </p>
+        </section>
+        <footer>
+                Copyright © 2015-2016 Oksana Lunova &amp; Vaclav Koutský<br>
+                <a href="../pdf/Prohlaseni.pdf" class="prohlaseni">Prohlášení o dostupnosti webu</a>
+        </footer>
+    </body>
+</html>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>webLunovaKoutsky</title>
-        <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     </head>
-    <body>
+    <body> 
         <header>
             <img src="img/prague.png" alt="PragueTitle" title="PragueTitle">
             <div>  
@@ -54,24 +54,26 @@
             </div>            
         </header>
         <section>
-            <h1 class="textTitle">Vznik Prahy</h1>
-            <div class="sloupce">
-                <p class="text"> Vznik města spadá do doby, kterou můžeme nazvat bájnou dobou českých dějin. 
-                    Klaudios Ptolemaios , nejučenější zeměpisec starověku, jmenuje několik měst , které založili v Čechách Bojové, 
-                    keltský lid, jenž dal zemi jméno - Bojohemum. Žádným učencům  naší doby  se nepodařilo určit polohu těchto měst,
-                    nezachovala se po nich žádná stopa. Zanikla asi v době nadvlády Markomanů, nebo při tažení Atilly Čechami v čele 
-                    barbarských hord.
-                </p>
-                <img class="picContent" src="img/1.jpg" alt="Praha" title="Praha">
-                <p class="text">
-                Věříme tedy tradici, že Praha byla založena Libuší, ženou Přemyslova.Tento rod má významnou úlohu v 
-                prvotních dějinách Čech, z tohoto rodu vznikla dynastie téhož jména. Libuše dala zemi první zákony a 
-                určila postavení tvrze na vyvýšenině, kde dnes stojí Hradčany. Prorocky předpověděla před Přemyslem a 
-                staršími lidu velikost a moc, jakou jednou vznikající město dosáhne. Jak krásně pro nás znělo a zní 
-                její proroctví - vidím město veliké, jehož sláva hvězd se bude dotýkati. Volba místa, určeného k založení 
-                hlavního města, ukazuje neobyčejnou správnost jejího vidění.
-                </p>
-            </div>
+            <h1 id="prazskyHrad" class="textTitle">Pražský hrad</h1>
+            <img class="picGaler" src="img/prazskyHrad/1.jpg" alt="Pražský hrad" title="Pražský hrad">
+            <img class="picGaler" src="img/prazskyHrad/2.jpg" alt="Pražský hrad" title="Pražský hrad">
+            <img class="picGaler" src="img/prazskyHrad/3.jpg" alt="Pražský hrad" title="Pražský hrad">
+            <img class="picGalerLong" src="img/prazskyHrad/4.jpg" alt="Pražský hrad" title="Pražský hrad">
+    
+            <h1 id="karluvMost" class="textTitle">Karlův most</h1>
+            <img class="picGaler" src="img/karluvMost/1.jpg" alt="Karlův most" title="Karlův most">
+            <img class="picGaler" src="img/karluvMost/2.jpg" alt="Karlův most" title="Karlův most">
+            <img class="picGalerLong" src="img/karluvMost/3.jpg" alt="Karlův most" title="Karlův most">
+            <img class="picGaler" src="img/karluvMost/4.jpeg" alt="Karlův most" title="Karlův most">
+    
+            <h1 id="centrumPrahy" class="textTitle">Centrum Prahy</h1>
+            <img class="picGaler" src="img/centrumPrahy/1.jpg" alt="Centrum Prahy" title="Centrum Prahy">
+            <img class="picGaler" src="img/centrumPrahy/2.jpg" alt="Centrum Prahy" title="Centrum Prahy">
+            <img class="picGaler" src="img/centrumPrahy/3.jpg" alt="Centrum Prahy" title="Centrum Prahy">
+            
+            <h1 id="pivnice" class="textTitle">Pivnice</h1>
+            <img class="picGaler" src="img/pivnice/1.jpg" alt="Pivnice" title="Pivnice">
+            <img class="picGaler" src="img/pivnice/2.jpg" alt="Pivnice" title="Pivnice">
         </section>
         <footer>
                 Copyright © 2015-2016 Oksana Lunova &amp; Vaclav Koutský<br>

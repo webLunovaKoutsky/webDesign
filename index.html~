@@ -18,7 +18,7 @@
                 <div class="dropdown2">
                     <button class="dropbtn"><span>HISTORIE</span></button>
                     <div class="dropdown-content">
-                        <a href="historie/malaStrana.html">Malá Strana</a>
+                        <a href="historie/malaStrana.html">Málá Strana</a>
                         <a href="historie/stareMesto.html">Staré Město</a>
                         <div class="innerMenuToRight">
                             <a class="menuToRight" href="#"><span>Nové Město</span></a>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>webLunovaKoutsky</title>
+		<link href="../style.css" rel="stylesheet" type="text/css"/>
+		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    </head>
+    <body> 
+		<header>
+			<img src="../img/prague.png" alt="PragueTitle" title="PragueTitle">
+			<div>  
+				<div class="dropdown1">
+					<form action="../index.html">
+						<button type="submit" title="DOMÁCÍ STRÁNKA" class="btn"><span>DOMÁCÍ STRÁNKA</span></button>
+					</form>
+				</div>
+				<div class="dropdown2">
+					<button class="dropbtn"><span>HISTORIE</span></button>
+					<div class="dropdown-content">
+						<a href="malaStrana.html">Mála Strana</a>
+						<a href="stareMesto.html">Stare Město</a>
+						<div class="innerMenuToRight">
+							<a class="menuToRight" href="#"><span>Nove Město</span></a>
+							<div class="rightContent">
+								<a href="karlovoNamesti.html">Karlovo náměstí</a>
+								<a href="vaclavskeNamesti.html">Václavské náměstí</a>
+							</div>
+						</div>
+						<a href="vysehrad.html">Vyšehrad</a>
+					</div>
+				</div>
+				<div class="dropdown3">
+					<button class="dropbtn"><span>PAMÁTKY</span></button>
+					<div class="dropdown-content">
+						<a href="../pamatky/vysehrad.html">Vyšehrad</a>
+						<a href="../pamatky/karluvMost.html">Karlův most</a>
+					</div>
+				</div>
+				<div class="dropdown4">
+					<form action="../kontakty.html">
+						<button type="submit" class="btn" title="KONTAKTY"><span>KONTAKTY</span></button>
+					</form>
+				</div>
+				<div class="dropdown5">
+					<button class="dropbtn"><span>FOTOGALERIE</span></button>
+					<div class="dropdown-content">
+						<a href="../fotogalerie.html#prazskyHrad">Pražský hrad</a>
+						<a href="../fotogalerie.html#karluvMost">Karlův most</a>
+						<a href="../fotogalerie.html#centrumPrahy">Centrum Prahy</a>
+						<a href="../fotogalerie.html#pivnice">Pivnice</a>
+					</div>
+				</div>
+			</div>            
+		</header>
+		<section>
+			<h1 class="textTitle">Staré město</h1>
+			<p class="text">
+				Staré Město je nejstarší a zdaleka nejkrásnější městskou částí Prahy. 
+				Jádrem historického centra je Staroměstské náměstí, které stojí na místě tržiště z 10. století a na kterém se odehrála 
+				řada politických i kulturních událostí, jež ovlivnily pražské dějiny. Prastaré dlážděné uličky tvoří tajuplné bludiště, 
+				v kterých se zákonitě ztratí i člověk s nejlepším orientačním smyslem.
+			</p>
+				
+			<h2 class="textTitle">Staroměstské náměstí</h2> 
+			<p class="text">
+				Staroměstské náměstí přitahuje největší počet návštěvníků Prahy, 
+				protože se pyšní překrásně zachovalým souborem budov a dalších památek: mimo jiné kostelem Matky Boží před Týnem, 
+				Staroměstskou radnicí a barokním kostelem svatého Mikuláše. Dominantou náměstí je Staroměstská radnice, 
+				pocházející z roku 1338. V roce 1410 byl k radnici přistavěn orloj s chronometrem a zvěrokruhem, 
+				jenž se stal celosvětově proslulou atrakcí a jednou z nezbytných zastávek při návštěvě Prahy. 
+				Před každou celou hodinou se zde shromažďují stovky lidí, aby sledovali složité mechanické divadlo, 
+				jehož ústředním bodem jsou okna s dvanácti apoštoly. Budova byla za 2. světové války vážně poškozena, 
+				ale zbývající část byla pečlivě zrekonstruována do původní krásy. Městská rada ve Staroměstské radnici již dávno nezasedá; 
+				dnes budova slouží turistům a jako nejslavnější oddací síň v republice. Kdo vystoupá až na vrcholek věže, 
+				tomu se otevře skutečně dechberoucí vyhlídka na náměstí a pochopí, proč se Praze říká stověžatá.
+			</p>
+			
+			<h2 class="textTitle">Náměstí Republiky</h2>
+			<p class="text">
+				Náměstí Republiky v Praze je dokladem různorodosti a krásy architektonických stylů České republiky. 
+				Najdeme zde Prašnou bránu z roku 1745, která byla v 19. století upravena v romantizujícím neogotickém stylu, 
+				jednoduchou stavbu barokního kostela sv. Josefa zastrčenou za novorománskou budovou bývalých kasáren, 
+				v níž se nachází obchodní centrum Palladium, nádherný Obecní dům s půkruhovou mozaikou v průčelí, 
+				budovu Národní banky z roku 1924 nebo zrekonstruovaný obchodní dům Kotva, který je mnohými považován za jednu z nejošklivějších staveb komunistické éry. 
+				Náměstí bylo dříve součástí městského opevnění, tvořilo část královské cesty a podle svého využití mělo také různá jména. Své současné jméno získalo v roce 1919 poté, 
+				co byl z balkónu Obecního domu vyhlášen samostatný československý stát. Na náměstí staví několik tramvajových linek a metro linky B. 
+				Za několik minut se z něj pěšky dostanete na Václavské nebo Staroměstské náměstí. V současnosti se zde konají různé veřejné akce včetně festivalu Prague Pride. 
+			</p>
+			
+			<h2 class="textTitle">Prašná brána</h2>
+			<p class="text">
+				Tato monumentální památka je jedním ze 13 původních vstupů do Starého Města. Gotická budova pochází z dob vlády krále Vladislava II. 
+				Jagellonského, z roku 1475, kdy se jí říkalo Horská brána. V 17. století se využívala jako skladiště střelného prachu, z čehož pochází její současný název. 
+				Detailně zdobená věž je 65 metrů vysoká a uvnitř je umístěna stálá expozice o starých pražských věžích. Po 186 kamenných schodech můžeme vystoupat na vyhlídkový ochoz, 
+				z něhož je neuvěřitelná vyhlídka na město. Prašná brána byla v 90. letech minulého století pečlivě zrekonstruována.
+			</p>
+			
+			<h2 class="textTitle"> Klementinum</h2>
+			<p class="text">
+				Klementinum rozkládající se na ploše o více než dvou hektarech je sídlem Národní knihovny České republiky a jedním z největších komplexů v Evropě. 
+				Počátek Klementina se datuje do 11. století, kdy byla postavena kaple zasvěcená svatému Klementovi. Ve středověku sloužil komplex jako dominikánský klášter a poté v roce 1556 jako jezuitská kolej, 
+				která byla svého času třetí největší jezuitskou kolejí na světě. V roce 1773 založila císařovna Marie Terezie v Klementinu univerzitu, knihovnu a observatoř. V roce 1781 zde vznikla Národní knihovna. 
+				Barokní komplex Klementina je po Pražském hradě druhým největším komplexem v Praze. Disponuje nádhernými fasádami, skvostnými nádvořími s čestnými slunečními hodinami a jinými zajímavostmi, 
+				jako je 68 metrů vysoká astronomická věž. Z té je nádherný výhled nejen na spletenec pražských uliček, barokní budovu knihovny s freskami a neobyčejnou Zrcadlovou kapli. 
+			</p>	
+		</section>
+		<footer>
+                Copyright © 2015-2016 Oksana Lunova &amp; Vaclav Koutský<br>
+                <a href="../pdf/Prohlaseni.pdf" class="prohlaseni">Prohlášení o dostupnosti webu</a>
+        </footer>
+	</body>
+</html>
