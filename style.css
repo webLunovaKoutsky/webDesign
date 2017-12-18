@@ -175,6 +175,9 @@ transition: 0s
 .dropdown5 {
     float: left;
 }
+.dropdown6 {
+    float: left;
+}
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: gainsboro;
@@ -186,15 +189,15 @@ transition: 0s
     color: black;
 }
 
-.dropdown2:hover .dropdown-content{
-    display: block;
-}
-
 .dropdown3:hover .dropdown-content{
     display: block;
 }
 
-.dropdown5:hover .dropdown-content{
+.dropdown4:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown6:hover .dropdown-content{
     display: block;
 }
 
